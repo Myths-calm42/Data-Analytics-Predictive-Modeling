@@ -1,0 +1,26 @@
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Local databases and raw assignment data
+*.duckdb
+*.db
+data/csv/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
